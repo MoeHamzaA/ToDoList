@@ -1,0 +1,49 @@
+
+.header {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+}
+.container {
+  background: rgba(253, 253, 253, 0.178);
+  backdrop-filter: saturate(180%) blur(10px);
+  
+  display: inline-block;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 5px rgba(13, 10, 10, 0.19);
+}
+.center {
+  display: flex;
+  justify-content: center;
+  height: 800px;
+  align-items: center;
+  
+}
+#todoTitle, #datePicker {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid white;
+  margin-bottom: 10px;
+}
+#submit{
+  margin-bottom: 10px;
+}
+#submit, button {
+  background-color: rgba(255, 0, 0, 0.321);
+  border-radius: 9px;
+  border-color: transparent;
+  transition: 0.3s;
+  
+}
+#submit:hover,  button:hover{
+  transform: scale(1.05);
+  background-color: rgba(255, 0, 0, 0.464);
+}
+
+body {
+  background-image: url("1.png");
+}
+input {
+  text-align: center;
+}
